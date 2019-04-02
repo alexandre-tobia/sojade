@@ -1,95 +1,43 @@
-@import 'variables/index';
-@import 'base/index';
+@import './variables';
+@import './base/fonts';
+@import './base/bootstrap';
+@import './components/header';
 
-/*
- * Globals
- */
-/* Links */
-a,
-a:focus,
-a:hover {
-    color: #fff;
-}
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: .05rem solid #fff;
-}
-/*
- * Base structure
- */
-html,
+
 body {
-    height: 100%;
-    background-color: #333;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
 }
-body {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-pack: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+.t-s-green {
+    color: $s-green;
 }
-.cover-container {
-    max-width: 42em;
+
+.t-p-green {
+    color: $p-green;
 }
-/*
- * Header
- */
-.masthead {
-    margin-bottom: 2rem;
+
+.bg-s-green {
+    background-color: $s-green;
 }
-.masthead-brand {
-    margin-bottom: 0;
+
+.bg-p-green {
+    background-color: $p-green;
 }
-.nav-masthead .nav-link {
-    padding: .25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5);
-    background-color: transparent;
-    border-bottom: .25rem solid transparent;
-}
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
-}
-.nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-}
-.nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
-}
-@media (min-width: 48em) {
-    .masthead-brand {
-        float: left;
+
+.s-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Gotham', sans-serif;
+    color: $white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
     }
-    .nav-masthead {
-        float: right;
-    }
-}
-/*
- * Cover
- */
-.cover {
-    padding: 0 1.5rem;
-}
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
-}
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
 }

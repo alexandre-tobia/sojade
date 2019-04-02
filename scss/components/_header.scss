@@ -1,0 +1,28 @@
+#header {
+  background-color: #fbf7f6;
+  background: url('../assets/img/header_bg.png') no-repeat center;
+  background-size: cover;
+  height: 600px;
+
+  h1 {
+    font-family: 'AIMH', sans-serif;
+    font-size: 6em;
+    line-height: 70px;
+
+    &:after {
+      content: '';
+      background: url('../assets/img/splash.svg') no-repeat;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      right: -9%;
+      bottom: 20%;
+    }
+  }
+
+  .tagline {
+    color: $lightgrey;
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+  }
+}
