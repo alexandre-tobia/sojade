@@ -1,8 +1,13 @@
 #header {
   background-color: #fbf7f6;
-  background: url('../assets/img/header_bg.png') no-repeat center;
+  background: url('../assets/img/header_bg.png') no-repeat;
+  background-position: center;
   background-size: cover;
   height: 600px;
+
+  .logo {
+    left: 6em;
+  }
 
   h1 {
     font-family: 'AIMH', sans-serif;
@@ -23,6 +28,31 @@
   .tagline {
     color: $lightgrey;
     font-family: 'Gotham', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
+  }
+
+  @include media-breakpoint-down(sm) {
+    background-position: 23%;
+
+    .logo {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    h1 {
+      font-size: 3em;
+      line-height: 40px;
+
+      &:after {
+        width: 30px;
+        height: 30px;
+        right: -11%;
+        bottom: 22%;
+      }
+    }
+
+    .tagline {
+      font-size: 0.8em;
+    }
   }
 }
