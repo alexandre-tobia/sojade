@@ -3,9 +3,6 @@
   background: url('../assets/img/presentation_bg.png') no-repeat bottom left;
   background-size: cover;
   height: 350px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 
   h2 {
     color: $white;
@@ -34,14 +31,14 @@
   }
 
   .presentation__product {
-    width: 600px;
-    left: -100%;
-    top: -65px;
+    width: 675px;
+    left: -105%;
+    top: -50px;
     z-index: 10;
 
     @include media-breakpoint-only(md) {
-      width: 500px;
-      left: -115%;
+      width: 550px;
+      left: -120%;
       top: -30px;
     }
 
@@ -64,5 +61,12 @@
 
   .separator {
     border-color: $white;
+  }
+
+  .about__flowers {
+    height: 100%;
+    z-index: 10;
+    right: 0;
+    top: 40%;
   }
 }
