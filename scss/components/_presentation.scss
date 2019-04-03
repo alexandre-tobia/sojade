@@ -47,6 +47,12 @@
     @include media-breakpoint-down(sm) {
       width: 250px;
       left: 30%;
+      top: -70px;
+    }
+
+    @media screen and (max-width: 360px) {
+      left: 28%;
+      top: -65px;
     }
   }
 
