@@ -1,0 +1,56 @@
+#presentation {
+  background: radial-gradient(ellipse at top, $lighten-p-green, $lighten-s-green);
+  background: url('../assets/img/presentation_bg.png') no-repeat bottom left;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h2 {
+    color: $white;
+    font-size: 2.8em;
+    right: .2em;
+
+    &:after {
+      content: '';
+      background: url('../assets/img/splash_white.svg') no-repeat;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: -5%;
+    }
+  }
+
+  p {
+    color: $white;
+    font-weight: 400;
+    font-size: 1em;
+    width: 70%;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 0.8em;
+    }
+  }
+
+  .presentation__product {
+    width: 650px;
+    left: -105%;
+    top: -65px;
+
+    @include media-breakpoint-only(md) {
+      width: 500px;
+      left: -115%;
+      top: -30px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      width: 250px;
+      left: 30%;
+    }
+  }
+
+  .separator {
+    border-color: $white;
+  }
+}
