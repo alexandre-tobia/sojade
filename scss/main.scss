@@ -3,6 +3,7 @@
 @import './base/bootstrap';
 @import './components/header';
 @import './components/presentation';
+@import './components/about';
 
 
 body {
@@ -25,6 +26,10 @@ body {
 
 .bg-p-green {
     background-color: $p-green;
+}
+
+.bg-about {
+    background-color: $about-bg;
 }
 
 h1,

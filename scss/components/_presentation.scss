@@ -37,6 +37,7 @@
     width: 650px;
     left: -105%;
     top: -65px;
+    z-index: 10;
 
     @include media-breakpoint-only(md) {
       width: 500px;
@@ -52,7 +53,12 @@
 
     @media screen and (max-width: 360px) {
       left: 28%;
-      top: -65px;
+      top: -85px;
+    }
+
+    @media screen and (max-width: 320px) {
+      left: 19%;
+      top: -75px;
     }
   }
 

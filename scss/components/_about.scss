@@ -1,0 +1,41 @@
+#about {
+  .photo {
+    background: url('../assets/img/about_photo.jpg') no-repeat right;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+  .bg_seeds {
+    background-color: $about-bg;
+    background: url('../assets/img/about_seeds.png') no-repeat center bottom;
+    background-size: contain;
+  }
+
+  h2 {
+    font-size: 2.8em;
+    right: .2em;
+
+    &:after {
+      content: '';
+      background: url('../assets/img/splash.svg') no-repeat;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: -10%;
+      bottom: 25px;
+    }
+
+    @media screen and (max-width: 360px) {
+      font-size: 2em;
+    }
+  }
+
+  p {
+    font-size: .8em;
+    line-height: 24px;
+    color: $mediumgrey;
+    width: 65%;
+  }
+
+}
