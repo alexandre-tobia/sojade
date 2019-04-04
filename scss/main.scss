@@ -4,6 +4,7 @@
 @import './components/header';
 @import './components/presentation';
 @import './components/about';
+@import './components/products';
 
 
 body {
@@ -20,12 +21,20 @@ body {
     color: $p-green;
 }
 
+.t-white {
+    color: $white;
+}
+
 .bg-s-green {
     background-color: $s-green;
 }
 
 .bg-p-green {
     background-color: $p-green;
+}
+
+.bg-white {
+    background-color: $white;
 }
 
 .bg-about {
@@ -49,14 +58,12 @@ p {
     padding: 10px 20px;
     border-radius: 30px;
     font-family: 'Gotham', sans-serif;
-    color: $white;
     font-size: 12px;
     font-weight: bold;
     margin: 0 5px;
     text-transform: uppercase;
 
     &:hover {
-        color: $white;
         text-decoration: none;
     }
 }
@@ -65,4 +72,8 @@ p {
     width: 100%;
     height: 1px;
     border-bottom: 5px dotted;
+}
+
+.active {
+    display: block !important;
 }

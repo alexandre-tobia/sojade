@@ -4,9 +4,15 @@ import popper from "popper.js";
 import bootstrap from "bootstrap";
 import fs from 'fs';
 import Vue from 'vue'
-import Quiz from './components/Quiz'
+// import Quiz from './components/Quiz'
+import Products from './components/Products'
+
+// new Vue({
+//   el: '#quiz',
+//   render: h => h(Quiz)
+// })
 
 new Vue({
-  el: '#quiz',
-  render: h => h(Quiz)
+  el: '#products',
+  render: h => h(Products)
 })
