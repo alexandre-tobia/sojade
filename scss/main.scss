@@ -1,7 +1,7 @@
+@import './variables';
+@import './base/fonts';
 
 .sojade {
-    @import './variables';
-    @import './base/fonts';
     @import './base/bootstrap';
     @import './components/header';
     @import './components/presentation';

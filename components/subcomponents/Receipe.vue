@@ -12,7 +12,7 @@
         <div class="col-md-7">
           <div class="row no-gutters">
             <div class="col-12">
-              <div class="d-flex flex-column justify-content-center h-100">
+              <div class="d-flex flex-column  h-100">
                 <div class="receipe__content pt-5 bg-palelight">
                   <div class="title d-inline-block">
                     <h3
