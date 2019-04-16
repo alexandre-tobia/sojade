@@ -1,107 +1,110 @@
-@import './variables';
-@import './base/fonts';
-@import './base/bootstrap';
-@import './components/header';
-@import './components/presentation';
-@import './components/about';
-@import './components/products';
-@import './components/game';
-@import './components/quiz';
 
-body {
-    max-width: 980px;
-    width: 100%;
-    margin: auto;
-}
+.sojade {
+    @import './variables';
+    @import './base/fonts';
+    @import './base/bootstrap';
+    @import './components/header';
+    @import './components/presentation';
+    @import './components/about';
+    @import './components/products';
+    @import './components/game';
+    @import './components/quiz';
 
-.t-s-green {
-    color: $s-green;
-}
-
-.t-p-green {
-    color: $p-green;
-}
-
-.t-mediumgrey {
-    color: $mediumgrey;
-}
-
-.t-white {
-    color: $white;
-}
-
-.t-orange {
-    color: $orange;
-}
-
-.bg-s-green {
-    background-color: $s-green;
-}
-
-.bg-p-green {
-    background-color: $p-green;
-}
-
-.bg-white {
-    background-color: $white;
-}
-
-.bg-about {
-    background-color: $about-bg;
-}
-
-.bg-palelight {
-    background-color: $bg-palelight;
-}
-
-.bg-paleyellow {
-    background-color: $bg-paleyellow;
-}
-
-
-
-.t-12px {
-    font-size: 0.750em;
-}
-
-.t-14px {
-    font-size: 0.875em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'AIMH', sans-serif;
-}
-
-p {
-    font-family: 'Gotham Book', sans-serif;
-}
-
-.s-button {
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-family: 'Gotham', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 0 5px;
-    text-transform: uppercase;
-    border: none;
-
-    &:hover {
-        text-decoration: none;
+    body {
+        max-width: 980px;
+        width: 100%;
+        margin: auto;
     }
-}
 
-.separator {
-    width: 100%;
-    height: 1px;
-    border-bottom: 5px dotted;
-}
+    .t-s-green {
+        color: $s-green;
+    }
 
-.active {
-    display: block !important;
+    .t-p-green {
+        color: $p-green;
+    }
+
+    .t-mediumgrey {
+        color: $mediumgrey;
+    }
+
+    .t-white {
+        color: $white;
+    }
+
+    .t-orange {
+        color: $orange;
+    }
+
+    .bg-s-green {
+        background-color: $s-green;
+    }
+
+    .bg-p-green {
+        background-color: $p-green;
+    }
+
+    .bg-white {
+        background-color: $white;
+    }
+
+    .bg-about {
+        background-color: $about-bg;
+    }
+
+    .bg-palelight {
+        background-color: $bg-palelight;
+    }
+
+    .bg-paleyellow {
+        background-color: $bg-paleyellow;
+    }
+
+
+    .t-12px {
+        font-size: 0.750em;
+    }
+
+    .t-14px {
+        font-size: 0.875em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'AIMH', sans-serif;
+    }
+
+    p {
+        font-family: 'Gotham Book', sans-serif;
+    }
+
+    .s-button {
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-family: 'Gotham', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 5px;
+        text-transform: uppercase;
+        border: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .separator {
+        width: 100%;
+        height: 1px;
+        border-bottom: 5px dotted;
+    }
+
+    .active {
+        display: block !important;
+
+    }
 }
