@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="quiz">
         <div v-if="currentQuestion < 6" class="container-fluid" id="quiz-container">
             <div class="row h-100">
                 <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
