@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Quiz/>
-    <Products/>
+    <Quiz></Quiz>
+    <Products></Products>
     <div class="container py-5" id="concours">
       <Game/>
     </div>

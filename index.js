@@ -8,9 +8,7 @@ import fs from 'fs';
 
 import Vue from 'vue'
 import App from './components/App'
-import Quiz from './components/questions'
-import Game from './components/Game'
-import Products from './components/Products'
+
 
 // import fb from './assets/data/fireConfig'
 
