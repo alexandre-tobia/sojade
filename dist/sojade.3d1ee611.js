@@ -89,4 +89,4 @@ module.exports=[{id:1,tabName:"Ultra frais dessert",description:"Pour des desser
 },{"./Game":"vzqU","./Quiz":"ytEi","./Products":"lrNj"}],"Focm":[function(require,module,exports) {
 "use strict";require("awesome-bootstrap-checkbox"),require("./scss/main.scss");var e=o(require("jquery")),r=o(require("popper.js")),u=o(require("bootstrap")),s=o(require("fs")),t=o(require("vue")),i=o(require("./components/App"));function o(e){return e&&e.__esModule?e:{default:e}}new t.default({el:"#app",render:function(e){return e(i.default)}});
 },{"awesome-bootstrap-checkbox":"3Oz2","./scss/main.scss":"fx60","jquery":"HlZQ","popper.js":"v5IM","bootstrap":"pe4o","fs":"3Oz2","vue":"4673","./components/App":"TC+2"}]},{},["Focm"], null)
-//# sourceMappingURL=https://sojade-dev.agence-osez.com/sojade.6fa1a6a0.map
+//# sourceMappingURL=https://sojade-dev.agence-osez.com/sojade.f51f2715.map
