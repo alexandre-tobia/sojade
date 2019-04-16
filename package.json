@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "assets": "^3.0.1",
     "autoprefixer": "^9.5.0",
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",

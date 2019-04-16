@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import json from "../assets/data/products.json";
+import json from "./data";
 import Product from "./subcomponents/Product";
 import Receipe from "./subcomponents/Receipe";
 export default {
@@ -78,6 +78,7 @@ export default {
     };
   },
   mounted() {
+    console.log(json);
     this.products = json;
   },
   methods: {
