@@ -18,9 +18,9 @@
       }
     ],
     "link": "url-gamme-1",
-    "recipe": {
+    "receipe": {
+      "_id": 1,
       "name": "Cheesecake façon tarte au citron",
-      "usedProduct": "url-of-used-product",
       "number": 6,
       "cookTime": 10,
       "baking": 15,
@@ -31,16 +31,16 @@
             "needs": ["300g de biscuit", "100g de beurre", "25g d'eau froide"]
           },
           {
-            "title": "Crème Sojade au Citron",
-            "needs": ["250g de Sojade à la grecque", "2 œufs entiers", "30g de sucre roux", "Jus d'un citron jaune", "2g d'agar agar", "90g de beurre végétal"]
-          },
-          {
             "title": "Zestes de citron",
             "needs": ["Zestes de citron", "1 c. à s. de sucre roux", "10g de beurre végétal"]
+          },
+          {
+            "title": "Crème Sojade au Citron",
+            "needs": ["250g de Sojade à la grecque", "2 œufs entiers", "30g de sucre roux", "Jus d'un citron jaune", "2g d'agar agar", "90g de beurre végétal"]
           }
         ]
       },
-      "prepatation": {
+      "preparation": {
         "preparationHasSteps": false,
         "cook": [
           "Préchauffer le four thermostat 6-7 / 175°C",
@@ -66,9 +66,9 @@
       "url": "url-image"
     }],
     "link": "url-gamme-2",
-    "recipe": {
+    "receipe": {
+      "_id": 2,
       "name": "Linguine au sarrasin et aux épinards",
-      "usedProduct": "url-of-used-product",
       "number": 4,
       "cookTime": 10,
       "baking": "8-10",
@@ -116,15 +116,15 @@
       }
     ],
     "link": "url-gamme-3",
-    "recipe": {
+    "receipe": {
+      "_id": 3,
       "name": "Smooethie aux fruits",
-      "usedProduct": "url-of-used-product",
       "number": 4,
       "cookTime": 0,
       "baking": 0,
       "ingredients": {
         "hasCategories": false,
-        "needs": ["Une banane bien mûre", "300g de fruits au choix (fraise, framboise, mangue,..)", "500ml de boisson nature Sojade"]
+        "needs": ["Une banane bien mûre", "300g de fruits au choix (fraise, framboise, mangue,..)", "500ml de boisson soja nature Sojade"]
       },
       "preparation": {
         "preparationHasSteps": false,
@@ -164,21 +164,21 @@
       }
     ],
     "link": "url-gamme-4",
-    "recipe": {
+    "receipe": {
+      "_id": 4,
       "name": "Fingers Sauce Thaï",
-      "usedProduct": "url-of-used-product",
       "number": 4,
       "cookTime": 15,
       "baking": 15,
       "ingredients": {
         "hasCategories": true,
         "categories": [{
-            "title": "FingersBase biscuit",
+            "title": "Fingers",
             "needs": ["2 boîtes de Finger Saujade, Épeautre - Chapelure aux graines"]
           },
           {
             "title": "Sauce",
-            "needs": [""]
+            "needs": ["1/2 concombre lavé", "10ml de crème de coco", "1 cuillère à soupe de tofu soyeux", "1 bouquet de menthe fraîche", "Sel, poivre, piment d'Espelette", "1 bocal de cocktail de légumes fermentés"]
           }
         ]
       },

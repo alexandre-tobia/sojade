@@ -21,6 +21,10 @@ body {
     color: $p-green;
 }
 
+.t-mediumgrey {
+    color: $mediumgrey;
+}
+
 .t-white {
     color: $white;
 }
@@ -39,6 +43,18 @@ body {
 
 .bg-about {
     background-color: $about-bg;
+}
+
+.bg-palelight {
+    background-color: $bg-palelight;
+}
+
+.bg-paleyellow {
+    background-color: $bg-paleyellow;
+}
+
+.t-12px {
+    font-size: 0.750em;
 }
 
 h1,
