@@ -31,7 +31,7 @@
                     </div>
                   </div>
                   <div
-                    class="ml-5 pl-md-5 d-flex flex-row mb-3 w-100"
+                    class="d-flex flex-row mb-3 w-100"
                     v-if="receipe.cookTime != 0 || receipe.baking != 0"
                   >
                     <div v-if="receipe.cookTime != 0" class="mr-4">
