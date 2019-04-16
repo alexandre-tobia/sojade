@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="products">
     <div class="d-flex flex-column align-items-center justify-content-center">
       <div class="products__presentation pt-5">
         <div class="container">
