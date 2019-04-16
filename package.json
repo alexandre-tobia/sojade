@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rimraf -rf dist/ && parcel index.html",
     "build": "rimraf -rf dist/ && parcel build index.html",
-    "prod": "rimraf -rf dist/ && parcel build index.html --public-url https://sojade-dev.agence-osez.com/"
+    "prod": "rimraf -rf dist/ && parcel build index.html --public-url ././"
   },
   "keywords": [],
   "author": "",
