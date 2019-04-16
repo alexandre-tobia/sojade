@@ -79,8 +79,8 @@ module.exports = [{
         "tabName": "Aide culinaire",
         "description": "Un petit coup de pouce pour préparer une recette gourmande et végétale, c’est facile avec l’Aide culinaire So Sarrasin Cooking…",
         "featured": [{
-            "title": "So Sarrasin Cooking!",
-            "subtitle": "Au sarrasin",
+            "title": "So Cooking!",
+            "subtitle": "Au Sarrasin",
             "url": require('../assets/img/product_1_0.png')
 
         }],
@@ -123,12 +123,12 @@ module.exports = [{
         "description": "Pour bénéficier des propriétés du calcium sans les désagréments du lactose, on adopte les boissons au soja, au riz, à l’amande ou à l’avoine.",
         "featured": [{
                 "title": "So Amande !",
-                "subtitle": "Amande et avoine",
+                "subtitle": "Amande avoine",
                 "url": require('../assets/img/product_2_0.png')
             },
             {
                 "title": "So Noix Tigrées !",
-                "subtitle": "Noix tigrées nature",
+                "subtitle": "Noix tigrées",
                 "url": require('../assets/img/product_2_1.png')
             },
             {
@@ -146,7 +146,7 @@ module.exports = [{
         "link": "url-gamme-3",
         "receipe": {
             "receipeImage": require('../assets/img/receipe_3.jpg'),
-            "name": "Smooethie aux fruits",
+            "name": "Smoothie aux fruits",
             "number": 4,
             "cookTime": 0,
             "baking": 0,
@@ -177,13 +177,13 @@ module.exports = [{
         "description": "Sojade pense aussi aux pressés qui souhaitent des petits plats savoureux, équilibrés et bio avec sa gamme de produits traiteur. ",
         "featured": [{
                 "title": "So Fingers !",
-                "subtitle": "Soja Épeautre Graines",
+                "subtitle": "Épeautre Graines",
                 "url": require('../assets/img/product_3_0.png')
 
             },
             {
                 "title": "So Mini Palets !",
-                "subtitle": "Soja Chou Kale",
+                "subtitle": "Chou Kale",
                 "url": require('../assets/img/product_3_1.png')
             },
             {

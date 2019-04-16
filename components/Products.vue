@@ -14,7 +14,7 @@
                     class="mb-2 mb-md-0 mx-4 mx-md-0 t-white product__tab position-relative d-inline-block"
                     v-for="product in products"
                     :key="product.id"
-                    @click="displayProducts(product.id)"
+                    @click="displayProducts(product)"
                   >
                     {{ product.tabName }}
                     <div class="separator ml-2"></div>
@@ -35,15 +35,13 @@
                 >
                   <div class="d-flex flex-column align-items-center">
                     <p class="description mb-4 t-white text-center">{{ product.description }}</p>
-                    <div class="d-flex flex-row justify-content-center flex-wrap w-100 mb-3">
-                      <div class="row">
-                        <Product
-                          v-for="(p, index) in product.featured"
-                          :key="index"
-                          :product="p"
-                          :class="{active: activeProduct === product.id}"
-                        />
-                      </div>
+                    <div class="d-flex flex-row justify-content-around flex-wrap w-100 mb-3">
+                      <Product
+                        v-for="(p, index) in product.featured"
+                        :key="index"
+                        :product="p"
+                        :class="{active: activeProduct === product.id}"
+                      />
                     </div>
                     <a :href="product.link" class="s-button bg-white t-p-green my-4">Voir la gamme</a>
                   </div>
@@ -54,13 +52,8 @@
         </div>
       </div>
       <!-- PRODUCT RECEIPE -->
-      <div
-        class="product w-100"
-        :class="{active: activeProduct === product.id}"
-        v-for="product in products"
-        :key="product.id"
-      >
-        <Receipe :receipe="product.receipe" :class="{active: activeProduct === product.id}"/>
+      <div class="w-100">
+        <Receipe :receipe="currentProduct.receipe"/>
       </div>
     </div>
   </div>
@@ -76,7 +69,8 @@ export default {
   data() {
     return {
       products: [],
-      activeProduct: 1
+      activeProduct: 1,
+      currentProduct: json[0]
     };
   },
   mounted() {
@@ -84,8 +78,9 @@ export default {
     this.products = json;
   },
   methods: {
-    displayProducts(productId) {
-      this.activeProduct = productId;
+    displayProducts(product) {
+      this.activeProduct = product.id;
+      this.currentProduct = product;
     }
   }
 };

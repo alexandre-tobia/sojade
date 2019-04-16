@@ -18,6 +18,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "firebase": "^5.9.4",
+    "hooper": "^0.1.2",
     "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
     "popper.js": "^1.14.7",

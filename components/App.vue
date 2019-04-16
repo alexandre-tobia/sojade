@@ -2,9 +2,9 @@
   <div>
     <Quiz/>
     <Products/>
-    <!-- <div class="container py-5" id="concours">
+    <div class="container py-5" id="concours">
       <Game/>
-    </div>-->
+    </div>
   </div>
 </template>
 
