@@ -1,10 +1,8 @@
-module.exports = [
-    {
+module.exports = [{
         "id": 1,
         "tabName": "Ultra frais dessert",
         "description": "Pour des desserts sains et équilibrés qui permettent de finir un repas en beauté, pensez aux Ultra frais dessert Sojade !",
-        "featured": [
-            {
+        "featured": [{
                 "title": "So Avoine !",
                 "subtitle": "Banane Passion",
                 "url": require('../assets/img/product_0_0.png')
@@ -24,15 +22,14 @@ module.exports = [
         ],
         "link": "url-gamme-1",
         "receipe": {
-            "_id": 1,
+            "receipeImage": require('../assets/img/receipe_1.jpg'),
             "name": "Cheesecake façon tarte au citron",
             "number": 6,
             "cookTime": 10,
             "baking": 15,
             "ingredients": {
                 "hasCategories": true,
-                "categories": [
-                    {
+                "categories": [{
                         "title": "Base biscuit",
                         "needs": [
                             "300g de biscuit",
@@ -81,17 +78,15 @@ module.exports = [
         "id": 2,
         "tabName": "Aide culinaire",
         "description": "Un petit coup de pouce pour préparer une recette gourmande et végétale, c’est facile avec l’Aide culinaire So Sarrasin Cooking…",
-        "featured": [
-            {
-                "title": "So Sarrasin Cooking!",
-                "subtitle": "Au sarrasin",
-                "url": require('../assets/img/product_1_0.png')
+        "featured": [{
+            "title": "So Sarrasin Cooking!",
+            "subtitle": "Au sarrasin",
+            "url": require('../assets/img/product_1_0.png')
 
-            }
-        ],
+        }],
         "link": "url-gamme-2",
         "receipe": {
-            "_id": 2,
+            "receipeImage": require('../assets/img/receipe_2.jpg'),
             "name": "Linguine au sarrasin et aux épinards",
             "number": 4,
             "cookTime": 10,
@@ -126,8 +121,7 @@ module.exports = [
         "id": 3,
         "tabName": "Boisson",
         "description": "Pour bénéficier des propriétés du calcium sans les désagréments du lactose, on adopte les boissons au soja, au riz, à l’amande ou à l’avoine.",
-        "featured": [
-            {
+        "featured": [{
                 "title": "So Amande !",
                 "subtitle": "Amande et avoine",
                 "url": require('../assets/img/product_2_0.png')
@@ -151,7 +145,7 @@ module.exports = [
         ],
         "link": "url-gamme-3",
         "receipe": {
-            "_id": 3,
+            "receipeImage": require('../assets/img/receipe_3.jpg'),
             "name": "Smooethie aux fruits",
             "number": 4,
             "cookTime": 0,
@@ -181,8 +175,7 @@ module.exports = [
         "id": 4,
         "tabName": "Traiteur",
         "description": "Sojade pense aussi aux pressés qui souhaitent des petits plats savoureux, équilibrés et bio avec sa gamme de produits traiteur. ",
-        "featured": [
-            {
+        "featured": [{
                 "title": "So Fingers !",
                 "subtitle": "Soja Épeautre Graines",
                 "url": require('../assets/img/product_3_0.png')
@@ -206,15 +199,14 @@ module.exports = [
         ],
         "link": "url-gamme-4",
         "receipe": {
-            "_id": 4,
+            "receipeImage": require('../assets/img/receipe_4.jpg'),
             "name": "Fingers Sauce Thaï",
             "number": 4,
             "cookTime": 15,
             "baking": 15,
             "ingredients": {
                 "hasCategories": true,
-                "categories": [
-                    {
+                "categories": [{
                         "title": "Fingers",
                         "needs": ["2 boîtes de Finger Saujade, Épeautre - Chapelure aux graines"]
                     },
@@ -233,8 +225,7 @@ module.exports = [
             },
             "preparation": {
                 "preparationHasSteps": true,
-                "cook": [
-                    {
+                "cook": [{
                         "title": "Préparation des Fingers",
                         "list": [
                             "Faites griller les fingers 7 à 8 minutes dans un filet d’huile d’olive chaude."

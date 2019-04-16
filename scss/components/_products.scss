@@ -75,11 +75,19 @@
     font-size: 1.4em;
     top: 0;
     left: 3.5em;
+
+    @include media-breakpoint-down(sm) {
+      left: 4.5em;
+    }
   }
 
   .product__arrow {
     bottom: 2em;
     right: 3em;
+
+    @include media-breakpoint-down(sm) {
+      right: 7em;
+    }
   }
 
   .product__subtitle {
@@ -94,6 +102,10 @@
     width: 100%;
     top: 2.5em;
     left: 6em;
+
+    @include media-breakpoint-down(sm) {
+      width: 85%;
+    }
   }
 
   .product__img {

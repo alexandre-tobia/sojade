@@ -1,0 +1,50 @@
+#concours {
+  background: url('../assets/img/game_bg.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h2 {
+    &:after {
+      content: '';
+      background: url('../assets/img/splash.svg') no-repeat;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: -18%;
+      bottom: 20px;
+    }
+  }
+
+  .s-button {
+    width: 200px;
+  }
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid $s-green;
+  background: transparent;
+  outline: none;
+  margin: .5em 0;
+  width: 170px;
+  color: $darkgrey;
+}
+
+
+.abc-checkbox label {
+  outline: none !important;
+
+  &:before {
+    border: 2px solid $s-green !important;
+  }
+}
+
+.abc-checkbox input[type=checkbox]:checked+label:after {
+  content: '';
+  outline: none !important;
+}
+
+.abc-checkbox input[type=checkbox]:checked+label:before {
+  background-color: $p-green;
+  outline: none !important;
+}

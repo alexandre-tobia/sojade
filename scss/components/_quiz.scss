@@ -1,0 +1,50 @@
+#quiz-container {
+  background: url('../assets/img/quiz_bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+
+  @include media-breakpoint-down(md) {
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  h2 {
+    &:after {
+      content: '';
+      background: url('../assets/img/splash.svg') no-repeat;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: -25%;
+      bottom: 20px;
+    }
+  }
+
+  .quiz__image {
+    width: 100%;
+  }
+
+  .question__counter {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    h4 {
+      font-size: 1.4em;
+    }
+  }
+
+}
+
+.previous__question {
+  cursor: pointer;
+
+  &:before {
+    content: "< ";
+    position: relative;
+    left: 0;
+  }
+}

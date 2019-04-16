@@ -5,7 +5,8 @@
 @import './components/presentation';
 @import './components/about';
 @import './components/products';
-
+@import './components/game';
+@import './components/quiz';
 
 body {
     max-width: 980px;
@@ -27,6 +28,10 @@ body {
 
 .t-white {
     color: $white;
+}
+
+.t-orange {
+    color: $orange;
 }
 
 .bg-s-green {
@@ -53,8 +58,14 @@ body {
     background-color: $bg-paleyellow;
 }
 
+
+
 .t-12px {
     font-size: 0.750em;
+}
+
+.t-14px {
+    font-size: 0.875em;
 }
 
 h1,
@@ -78,6 +89,7 @@ p {
     font-weight: bold;
     margin: 0 5px;
     text-transform: uppercase;
+    border: none;
 
     &:hover {
         text-decoration: none;

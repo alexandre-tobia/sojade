@@ -5,7 +5,7 @@
         <div class="col-md-5">
           <div
             class="receipe__image"
-            :style="{ backgroundImage: `url(receipe.)`}"
+            :style="{ backgroundImage: `url('${receipe.receipeImage}')` }"
           ></div>
           <!-- <img src="/assets/img/receipe_4.jpg" :alt="receipe.name" class="receipe__image"> -->
           <div class="p-5 bg-paleyellow" v-if="receipe.advices.hasAdvices === true">

@@ -1,10 +1,6 @@
 <template>
   <div class="product position-relative">
-    <img
-      :src="product.url"
-      :alt="product.title"
-      class="mb-3 position-relative product__img"
-    >
+    <img :src="product.url" :alt="product.title" class="mb-3 position-relative product__img">
     <p class="product__title t-white position-absolute w-100">{{ product.title }}</p>
     <img
       src="/assets/img/product_flowers.png"

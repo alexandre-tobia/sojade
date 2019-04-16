@@ -35,13 +35,15 @@
                 >
                   <div class="d-flex flex-column align-items-center">
                     <p class="description mb-4 t-white text-center">{{ product.description }}</p>
-                    <div class="d-flex flex-row justify-content-around flex-wrap w-100 mb-3">
-                      <Product
-                        v-for="(p, index) in product.featured"
-                        :key="index"
-                        :product="p"
-                        :class="{active: activeProduct === product.id}"
-                      />
+                    <div class="d-flex flex-row justify-content-center flex-wrap w-100 mb-3">
+                      <div class="row">
+                        <Product
+                          v-for="(p, index) in product.featured"
+                          :key="index"
+                          :product="p"
+                          :class="{active: activeProduct === product.id}"
+                        />
+                      </div>
                     </div>
                     <a :href="product.link" class="s-button bg-white t-p-green my-4">Voir la gamme</a>
                   </div>
@@ -65,7 +67,7 @@
 </template>
 
 <script>
-import json from "./data";
+import json from "./receipe";
 import Product from "./subcomponents/Product";
 import Receipe from "./subcomponents/Receipe";
 export default {
