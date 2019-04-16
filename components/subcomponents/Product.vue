@@ -1,7 +1,7 @@
 <template>
   <div class="product position-relative">
     <img
-      src="/assets/img/product2_1.png"
+      src="/assets/img/product_0_1.png"
       :alt="product.title"
       class="mb-3 position-relative product__img"
     >
