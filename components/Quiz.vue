@@ -74,8 +74,7 @@
               <p class="t-mediumgrey">
                 Inscrivez-vous et tentez de remporter
                 <br>3 produits SOJADE + 1 kit de graines à planter (3 plaquettes de tourbe + graines d’un mélange de
-                fleurs sauvages + mode d’emploi présentés dans une pochette en kraft avec logo Sojade) + 1 crayon à
-                planter.
+                fleurs sauvages) + 1 crayon à planter.
                 <br>
                 <br>Un tirage au sort désignera les 5 gagnants.
               </p>
