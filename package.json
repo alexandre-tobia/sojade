@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rimraf -rf dist/ && mkdir dist && cp index.php dist && parcel index.html",
     "build": "rimraf -rf dist/ &&  mkdir dist && cp index.php dist && parcel build index.html",
-    "prod": "rimraf -rf dist/ &&  mkdir dist && cp index.php dist && parcel build index.html --public-url https://sojade-dev.agence-osez.com"
+    "prod": "rimraf -rf dist/ &&  mkdir dist && cp index.php dist && parcel build index.html --public-url https://sojade-dev.agence-osez.com",
+    "start-nocache": "rimraf -rf dist/ && rimraf -rf .cache/ && mkdir dist && cp index.php dist && parcel index.html"
   },
   "keywords": [],
   "author": "",

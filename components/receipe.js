@@ -5,7 +5,8 @@ module.exports = [{
         "featured": [{
                 "title": "So Avoine !",
                 "subtitle": "Banane Passion",
-                "url": require('../assets/img/product_0_0.png')
+                "url": require('../assets/img/product_0_0.png'),
+                "superclass": true
 
             },
             {
@@ -81,8 +82,8 @@ module.exports = [{
         "featured": [{
             "title": "So Cooking!",
             "subtitle": "Au Sarrasin",
-            "url": require('../assets/img/product_1_0.png')
-
+            "url": require('../assets/img/product_1_0.png'),
+            "hyperclass": true
         }],
         "link": "url-gamme-2",
         "receipe": {

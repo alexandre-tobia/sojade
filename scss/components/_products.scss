@@ -61,10 +61,7 @@
     color: $p-green;
   }
 
-  .product__arrow,
-  .product__flower,
-  .product__subtitle,
-  .product__title {
+  .product__mask {
     opacity: 0;
     transition: opacity .2s ease-in-out;
   }
@@ -73,19 +70,20 @@
     font-family: 'AIMH', sans-serif;
     font-size: 1.4em;
     top: 0;
-    left: 3.5em;
+    left: 80px;
 
     @include media-breakpoint-down(sm) {
       left: 4.5em;
     }
   }
 
-  .product__arrow {
-    bottom: 2em;
-    right: 3em;
+  .product__arrow__container {
+    right: 45px;
+    top: 80px;
 
-    @include media-breakpoint-down(sm) {
-      right: 7em;
+    .product__arrow {
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 
@@ -93,12 +91,11 @@
     font-family: 'AIMH', sans-serif;
     font-size: 1.3em;
     font-weight: 300;
-    left: -3em;
-    bottom: -1em;
+    left: calc(-2em - 1.3em);
   }
 
   .product__flower {
-    width: 100%;
+    width: 125px;
     top: 2.5em;
     left: 6em;
 
@@ -117,15 +114,25 @@
       transform: rotate(-30deg);
     }
 
-    &:hover~.product__arrow,
-    &:hover~.product__flower,
-    &:hover~.product__subtitle,
-    &:hover~.product__title {
+    &:hover~.product__mask {
       opacity: 1;
     }
   }
 
+  &.customProduct0 {
+    .product__title {
+      left: 6.5em;
+    }
 
+    .product__arrow__container {
+      right: 80px;
+    }
+  }
+}
+
+.description {
+  width: 70%;
+  margin: auto;
 }
 
 .receipe {

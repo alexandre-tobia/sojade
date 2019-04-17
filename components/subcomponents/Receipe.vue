@@ -12,9 +12,9 @@
         <div class="col-md-7">
           <div class="row no-gutters">
             <div class="col-12">
-              <div class="d-flex flex-column h-100">
-                <div class="receipe__content pt-3 bg-palelight d-flex flex-column h-100">
-                  <div class="title d-inline-block">
+              <div class="d-flex flex-column">
+                <div class="receipe__content pt-3 bg-palelight d-flex flex-column">
+                  <div class="title d-inline-block mb-3">
                     <h3
                       class="pb-0 m-0 position-relative d-inline-block t-p-green"
                     >{{ receipe.name }}</h3>
@@ -29,34 +29,35 @@
                       >
                       <p class="t-p-green mb-0 d-inline-block">Pour {{ receipe.number }} personnes</p>
                     </div>
-                  </div>
-                  <div
-                    class="d-flex flex-row mb-3 w-100 justify-content-center"
-                    v-if="receipe.cookTime != 0 || receipe.baking != 0"
-                  >
-                    <div v-if="receipe.cookTime != 0" class="mr-4">
-                      <img
-                        src="/assets/img/icon_time.png"
-                        :alt="receipe.cookTime + 'minutes de préparation'"
-                        class="mr-3"
-                      >
-                      <p class="t-p-green mb-0 d-inline-block">{{ receipe.cookTime }} minutes</p>
+                    <div
+                      class="d-flex flex-row mb-3 w-100 justify-content-center"
+                      v-if="receipe.cookTime != 0 || receipe.baking != 0"
+                    >
+                      <div v-if="receipe.cookTime != 0" class="mr-4">
+                        <img
+                          src="/assets/img/icon_time.png"
+                          :alt="receipe.cookTime + 'minutes de préparation'"
+                          class="mr-3"
+                        >
+                        <p class="t-p-green mb-0 d-inline-block">{{ receipe.cookTime }} minutes</p>
+                      </div>
+                      <div v-if="receipe.baking != 0">
+                        <img
+                          src="/assets/img/icon_bake.png"
+                          :alt="receipe.baking + 'minutes de préparation'"
+                          class="mr-3"
+                        >
+                        <p class="t-p-green mb-0 d-inline-block">{{ receipe.baking }} minutes</p>
+                      </div>
                     </div>
-                    <div v-if="receipe.baking != 0">
-                      <img
-                        src="/assets/img/icon_bake.png"
-                        :alt="receipe.baking + 'minutes de préparation'"
-                        class="mr-3"
-                      >
-                      <p class="t-p-green mb-0 d-inline-block">{{ receipe.baking }} minutes</p>
-                    </div>
                   </div>
+
                   <hooper
                     ref="hooper"
                     :infiniteScroll="true"
                     :wheelControl="false"
-                    style="display: flex; height: 100%;"
-                    class="bg-paleyellow"
+                    class="bg-paleyellow h-100"
+                    style="display:inherit; max-height: 500px;"
                   >
                     <slide>
                       <div class="receipe__list my-5 mx-5 px-md-5">
