@@ -50,3 +50,26 @@ input[type="text"] {
   background-color: $p-green;
   outline: none !important;
 }
+
+.modal {
+  left: 100px;
+  right: 100px;
+  bottom: auto;
+  border: 1px solid black;
+  padding: 0px;
+  top: 100px;
+  background: #ffffff;
+  z-index: 9999999;
+  overflow: inherit;
+  .modal-footer {
+    margin: 0 20px 0 20px;
+  }
+
+  .modal-body {
+    max-height: 500px;
+    background: white;
+    overflow-y: scroll;
+    padding: 20px 20px 0 20px;
+    margin: 0px;
+  }
+}
