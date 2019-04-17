@@ -76,7 +76,6 @@ import { participantsCollection } from "../assets/fireConfig";
 export default {
   data() {
     return {
-      emailRE: /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       participant: {
         firstname: "",
         lastname: "",
@@ -86,30 +85,28 @@ export default {
         city: "",
         email: "",
         phone: "",
-        conditions: false,
+        conditions: true,
         offers: false,
         newsletter: false
-      }
+      },
+      isEmailValid: false
     };
   },
-  computed: {
-    validation: function() {
-      return {
-        email: this.emaileRE.test(this.participant.email)
-      };
+  methods: {
+    validEmail: function(email) {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
     },
     isValid: function() {
-      var validation = this.validation;
-      return Object.keys(validation).every(key => {
-        return validation[key];
-      });
-    }
-  },
-  methods: {
+      var validation = this.validEmail(this.participant.email);
+      return !validation
+        ? (this.isEmailValid = false)
+        : (this.isEmailValid = true);
+    },
     submit: function() {
       if (this.isValid) {
         participantsCollection
-          .push(this.participant)
+          .add(this.participant)
           .then(res => console.log(res));
       }
     }

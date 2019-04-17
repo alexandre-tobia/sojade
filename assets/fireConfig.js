@@ -19,6 +19,7 @@ const currentUser = auth.currentUser
 
 const participantsCollection = db.collection('participants')
 
+
 export {
   db,
   auth,
