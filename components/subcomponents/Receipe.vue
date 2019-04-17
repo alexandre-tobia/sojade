@@ -12,7 +12,7 @@
         <div class="col-md-7">
           <div class="row no-gutters">
             <div class="col-12">
-              <div class="d-flex flex-column  h-100">
+              <div class="d-flex flex-column h-100">
                 <div class="receipe__content pt-5 bg-palelight">
                   <div class="title d-inline-block">
                     <h3
@@ -31,7 +31,7 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex flex-row mb-3 w-100"
+                    class="d-flex flex-row mb-3 w-100 ml-5 pl-md-5"
                     v-if="receipe.cookTime != 0 || receipe.baking != 0"
                   >
                     <div v-if="receipe.cookTime != 0" class="mr-4">

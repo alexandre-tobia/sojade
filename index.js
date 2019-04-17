@@ -4,30 +4,19 @@ import $ from "jquery";
 import popper from "popper.js";
 import bootstrap from "bootstrap";
 import fs from 'fs';
+const fb = require('./assets/fireConfig');
 
 
 import Vue from 'vue'
 import App from './components/App'
 
-
-// import fb from './assets/data/fireConfig'
-
-new Vue({
-  el: '#app',
-  render: h => h(App)
+let app
+fb.auth.onAuthStateChanged(user => {
+  if (!app) {
+    app =
+      new Vue({
+        el: '#app',
+        render: h => h(App)
+      })
+  }
 })
-
-// new Vue({
-//   el: '#questions',
-//   render: h => h(Quiz)
-// })
-
-// // new Vue({
-// //   el: '#products',
-// //   render: h => h(Products)
-// // })
-
-// // new Vue({
-// //   el: '#game',
-// //   render: h => h(Game)
-// // })
