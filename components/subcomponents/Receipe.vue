@@ -2,7 +2,7 @@
   <div class="receipe">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-md-5">
+        <div class="col-md-5 d-flex">
           <div
             class="receipe__image"
             :style="{ backgroundImage: `url('${receipe.receipeImage}')` }"
@@ -13,14 +13,14 @@
           <div class="row no-gutters">
             <div class="col-12">
               <div class="d-flex flex-column  h-100">
-                <div class="receipe__content pt-5 bg-palelight">
+                <div class="receipe__content pt-3 bg-palelight d-flex flex-column h-100">
                   <div class="title d-inline-block">
                     <h3
-                      class="ml-5 pl-md-5 pb-0 m-0 position-relative d-inline-block t-p-green"
+                      class="pb-0 m-0 position-relative d-inline-block t-p-green"
                     >{{ receipe.name }}</h3>
                     <div class="separator my-3 t-p-green"></div>
                     <div
-                      class="ml-5 pl-md-5 receipe_number d-flex flex-row align-items-center mb-4"
+                      class="receipe_number d-flex flex-row align-items-center mb-4 justify-content-center"
                     >
                       <img
                         src="/assets/img/icon_people.png"
@@ -31,7 +31,7 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex flex-row mb-3 w-100"
+                    class="d-flex flex-row mb-3 w-100 justify-content-center"
                     v-if="receipe.cookTime != 0 || receipe.baking != 0"
                   >
                     <div v-if="receipe.cookTime != 0" class="mr-4">
@@ -53,9 +53,9 @@
                   </div>
                   <hooper
                     ref="hooper"
-                    style="height: auto; width: 100%;"
                     :infiniteScroll="true"
                     :wheelControl="false"
+                    style="display: flex; height: 100%;"
                     class="bg-paleyellow"
                   >
                     <slide>

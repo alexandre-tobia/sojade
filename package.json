@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rimraf -rf dist/ && parcel index.html",
-    "build": "rimraf -rf dist/ && parcel build index.html",
-    "prod": "rimraf -rf dist/ && parcel build index.html --public-url https://sojade-dev.agence-osez.com/"
+    "start": "rimraf -rf dist/ && mkdir dist && cp index.php dist && parcel index.html",
+    "build": "rimraf -rf dist/ &&  mkdir dist && cp index.php dist && parcel build index.html"
   },
   "keywords": [],
   "author": "",
