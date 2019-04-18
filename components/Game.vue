@@ -29,7 +29,7 @@
               <input type="text" v-model="participant.email" placeholder="Mail" required>
               <input type="text" v-model="participant.phone" placeholder="Téléphone" required>
             </div>
-            <div class="form-check abc-checkbox abc-checkbox-circle my-2">
+            <div class="form-check abc-checkbox abc-checkbox-circle my-2 ml-3 ml-md-0">
               <input
                 class="form-check-input"
                 id="checkbox1"
@@ -47,7 +47,7 @@
                 >j'accepte le règlement du jeu concours</span>
               </label>
             </div>
-            <div class="form-check abc-checkbox abc-checkbox-circle my-2">
+            <div class="form-check abc-checkbox abc-checkbox-circle my-2 ml-3 ml-md-0">
               <input
                 class="form-check-input"
                 id="checkbox2"
@@ -59,7 +59,7 @@
                 for="checkbox2"
               >Je souhaite recevoir les offres de SOJADE et de ses partenaires</label>
             </div>
-            <div class="form-check abc-checkbox abc-checkbox-circle my-2">
+            <div class="form-check abc-checkbox abc-checkbox-circle my-2 ml-3 ml-md-0">
               <input
                 class="form-check-input"
                 id="checkbox3"
@@ -69,7 +69,7 @@
               <label
                 class="form-check-label t-12px"
                 for="checkbox3"
-              >Je m'inscris à la newssletter hebdomadaire de marieclaireidees.com</label>
+              >Je m'inscris à la newsletter hebdomadaire de marieclaireidees.com</label>
             </div>
             <button type="submit" class="t-white s-button bg-s-green mx-0 my-2 py-3">Envoyer</button>
           </form>
@@ -141,7 +141,10 @@
             <p>
               Le jeu se déroulera du
               <strong>18 Avril au 16 Juin 2019</strong> inclus sur le site
-              <a target="_blank" href="https://www.marieclaire.fr/idees/">www.marieclaire.fr/idees/</a>
+              <a
+                target="_blank"
+                href="https://www.marieclaire.fr/idees/"
+              >www.marieclaire.fr/idees/</a>
             </p>
             <h3>Le principe</h3>
             <p>
@@ -403,7 +406,10 @@
             <p>
               Pour plus d’informations vous pouvez consulter notre Politique de Confidentialité sur le
               site
-              <a target="_blank" href="http://www.magicmaman.com">www.magicmaman.com</a>
+              <a
+                target="_blank"
+                href="http://www.magicmaman.com"
+              >www.magicmaman.com</a>
             </p>
             <br>
             <p>Il ne sera fait aucun envoi par courrier de la description du lot et du nom des gagnants.</p>

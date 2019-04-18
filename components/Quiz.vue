@@ -28,7 +28,7 @@
                 <p class="t-p-green font-weight-bold">{{ question.question }}</p>
                 <form @submit.prevent="nextStep" v-if="!hasBeenAnswered">
                   <div
-                    class="form-check abc-checkbox abc-checkbox-circle my-2"
+                    class="form-check abc-checkbox abc-checkbox-circle my-2 ml-3 ml-md-0"
                     v-for="(choice, idx) in question.answers"
                     :key="idx"
                   >
@@ -39,7 +39,7 @@
                       :id="'checkbox_' + idx + '_' + question._id"
                     >
                     <label
-                      class="form-check-label"
+                      class="form-check-label w-100"
                       :for="'checkbox_' + idx + '_' + question._id"
                     >{{ choice.answer }}</label>
                   </div>
