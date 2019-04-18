@@ -57,7 +57,7 @@
                     :infiniteScroll="true"
                     :wheelControl="false"
                     class="bg-paleyellow h-100"
-                    style="display:inherit; max-height: 500px;"
+                    style="display:inherit; max-height: 600px;"
                   >
                     <slide>
                       <div class="receipe__list my-5 mx-5 px-md-5">
