@@ -4,6 +4,10 @@
   background-size: cover;
   height: auto;
   width: 100%;
+
+  a:hover {
+    color: $p-green;
+  }
 }
 
 .icon__bio {

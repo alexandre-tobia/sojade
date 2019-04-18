@@ -5,7 +5,7 @@
   >
     <div class="d-flex flex-column align-items-center justify-content-center position-relative">
       <img :src="product.url" :alt="product.title" class="mb-3 product__img">
-      <div class="product__mask position-absolute">
+      <div class="product__mask position-absolute d-none d-md-block">
         <p
           class="product__title t-white position-absolute"
           style="width: 115px;"
