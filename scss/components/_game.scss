@@ -52,17 +52,12 @@ input[type="text"] {
 }
 
 .modal {
-  left: 100px;
-  right: 100px;
-  bottom: auto;
-  border: 1px solid black;
-  padding: 0px;
-  top: 100px;
-  background: #ffffff;
-  z-index: 9999999;
-  overflow: inherit;
   .modal-footer {
     margin: 0 20px 0 20px;
+  }
+
+  .modal-content {
+    border-radius: 0;
   }
 
   .modal-body {
