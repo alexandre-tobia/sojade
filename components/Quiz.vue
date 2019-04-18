@@ -8,12 +8,9 @@
             class="text-uppercase t-mediumgrey t-12px previous__question"
             @click="previousQuestion"
           >Précédente</div>
-          <div
-            class="question__counter t-white position-relative d-flex align-items-center my-2"
-            v-if="currentQuestion != 0"
-          >
+          <div class="question__counter t-white position-relative my-2" v-if="currentQuestion != 0">
             <img src="/assets/img/quiz_counter.png" :alt="currentQuestion + '/5'">
-            <h4 class="position-absolute">{{ currentQuestion }} / 5</h4>
+            <h4 class="position-absolute counter__text">{{ currentQuestion }} / 5</h4>
           </div>
           <div class="title">
             <h2 class="pb-0 m-0 position-relative d-inline-block t-p-green">Le Quiz Bio</h2>
@@ -22,6 +19,7 @@
           <div class="content mt-4">
             <div v-if="currentQuestion != 0">
               <div
+                class="w-100"
                 v-for="question in questions"
                 :key="question._id"
                 :class="{active: currentQuestion === question._id }"
@@ -50,15 +48,18 @@
                     class="t-white s-button bg-s-green mx-0 my-2 py-3"
                   >Voir la réponse</button>
                 </form>
-                <div v-else>
-                  <p v-if="answer" class="d-flex flex-column">
+                <div v-else class="w-100">
+                  <p v-if="answer" class="d-flex flex-column w-100">
                     <span class="answer__correct font-weight-bold text-uppercase t-s-green">Exact !</span>
-                    <span class="t-14px" style="line-height: 100%;">{{ question.explaination.true }}</span>
+                    <span
+                      class="t-14px w-100"
+                      style="line-height: 100%;"
+                    >{{ question.explaination.true }}</span>
                   </p>
-                  <p v-else class="d-flex flex-column">
+                  <p v-else class="d-flex flex-column w-100">
                     <span class="answer__false font-weight-bold text-uppercase t-orange">Faux...</span>
                     <span
-                      class="t-14px"
+                      class="t-14px w-100"
                       style="line-height: 100%;"
                     >{{ question.explaination.false }}</span>
                   </p>

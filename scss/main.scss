@@ -74,7 +74,7 @@
         width: 50%;
     }
 
-    .w-25 {
+    .width-25 {
         width: 25%;
     }
 
@@ -83,14 +83,14 @@
     }
 
     .w-sm-100 {
-        @include media-breakpoint-down(md) {
-            width: 100% !important;
+        @include media-breakpoint-down(xs) {
+            width: 100%;
         }
     }
 
     .w-md-50 {
         @include media-breakpoint-down(md) {
-            width: 50% !important;
+            width: 50%;
         }
     }
 

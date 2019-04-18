@@ -16,7 +16,7 @@
                 <div class="receipe__content pt-3 bg-palelight d-flex flex-column">
                   <div class="title d-inline-block mb-3">
                     <h3
-                      class="pb-0 m-0 position-relative d-inline-block t-p-green"
+                      class="pb-0 m-0 position-relative d-inline-block t-p-green w-100 text-center"
                     >{{ receipe.name }}</h3>
                     <div class="separator my-3 t-p-green"></div>
                     <div

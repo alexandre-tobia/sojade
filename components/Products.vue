@@ -5,7 +5,7 @@
         <!-- PRODUCT TABS -->
         <div class="d-flex justify-content-md-around justify-content-center flex-wrap px-5">
           <h3
-            class="mb-2 mb-md-0 t-white product__tab position-relative d-inline-block"
+            class="mb-2 mb-md-0 t-white product__tab position-relative d-inline-block mx-3 mx-md-0"
             v-for="product in products"
             :key="product.id"
             @click="displayProducts(product)"
@@ -18,18 +18,18 @@
       <!-- END PRODUCT TABS -->
       <img src="/assets/img/icon_bio.png" alt="Icon Bio" width="50" class="icon__bio my-4">
       <div
-        class="d-none px-5"
+        class="d-none w-100"
         :class="{active: activeProduct === product.id}"
         v-for="product in products"
         :key="product.id"
       >
         <div class="d-flex flex-column justify-content-center">
           <p class="description mb-5 t-white text-center">{{ product.description }}</p>
-          <div class="d-flex flex-column flex-wrap align-items-center px-5">
+          <div class="d-flex flex-column flex-wrap align-items-center px-md-5">
             <div class="d-flex flex-row flex-wrap align-items-center justify-content-center w-100">
               <div v-if="product.featured.length === 4" class="w-100">
                 <Product
-                  class="w-25 w-md-50"
+                  class="w-sm-100 width-25"
                   v-for="(p, index) in product.featured"
                   :key="index"
                   :product="p"
@@ -41,7 +41,7 @@
                 class="w-100 d-flex justify-content-around flex-wrap"
               >
                 <Product
-                  class="w-33 w-md-50"
+                  class="w-33 w-sm-100"
                   v-for="(p, index) in product.featured"
                   :key="index"
                   :product="p"
