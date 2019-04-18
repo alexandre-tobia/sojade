@@ -137,13 +137,18 @@
 
     .product__flower {
       left: 7em;
+
+      @include media-breakpoint-down(sm) {
+        top: -20px;
+      }
     }
 
     .product__title {
       left: 7.5em;
 
       @include media-breakpoint-down(sm) {
-        left: 5em;
+        left: 7em;
+        top: -30px;
       }
     }
 
@@ -151,7 +156,8 @@
       right: 80px;
 
       @include media-breakpoint-down(sm) {
-        right: 55px;
+        top: 40px;
+        right: 100px;
       }
     }
   }
