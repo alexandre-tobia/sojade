@@ -109,7 +109,7 @@
       aria-labelledby="modalReglementTitle"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content" style="background: white">
           <div class="modal-header d-flex justify-content-between">
             <h5 class="modal-title" id="exampleModalLongTitle">Réglement du jeu</h5>
