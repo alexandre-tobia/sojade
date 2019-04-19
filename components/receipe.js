@@ -1,7 +1,8 @@
-module.exports = [{
+module.exports = [
+    {
         "id": 1,
-        "tabName": "Ultra frais dessert",
-        "description": "Pour des desserts sains et équilibrés qui permettent de finir un repas en beauté, pensez aux Ultra frais dessert Sojade !",
+        "tabName": "Desserts",
+        "description": "Pour finir un repas en beauté, pensez aux desserts Sojade : une petite touche sucrée saine et équilibrée !\n",
         "featured": [{
                 "title": "So Avoine !",
                 "subtitle": "Banane Passion",
@@ -78,7 +79,7 @@ module.exports = [{
     {
         "id": 2,
         "tabName": "Aide culinaire",
-        "description": "Un petit coup de pouce pour préparer une recette gourmande et végétale, c’est facile avec l’Aide culinaire So Sarrasin Cooking…",
+        "description": "Un petit coup de pouce pour préparer une recette gourmande et végétale ? L’aide culinaire So Sarrasin Cooking est votre alliée.",
         "featured": [{
             "title": "So Cooking!",
             "subtitle": "Au Sarrasin",
@@ -121,7 +122,7 @@ module.exports = [{
     {
         "id": 3,
         "tabName": "Boisson",
-        "description": "Pour bénéficier des propriétés du calcium sans les désagréments du lactose, on adopte les boissons au soja, au riz, à l’amande ou à l’avoine.",
+        "description": "Pour bénéficier des propriétés du calcium sans les désagréments du lactose, choisissez les boissons au soja, au riz, à l’amande ou à l’avoine.",
         "featured": [{
                 "title": "So Amande !",
                 "subtitle": "Amande avoine",
@@ -175,7 +176,7 @@ module.exports = [{
     {
         "id": 4,
         "tabName": "Traiteur",
-        "description": "Sojade pense aussi aux pressés qui souhaitent des petits plats savoureux, équilibrés et bio avec sa gamme de produits traiteur. ",
+        "description": "Sojade pense aussi aux gourmands qui veulent des petits plats savoureux, équilibrés et bio rapidement avec sa gamme de produits traiteur. \n",
         "featured": [{
                 "title": "So Fingers !",
                 "subtitle": "Épeautre Graines",

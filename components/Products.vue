@@ -6,6 +6,7 @@
         <div class="d-flex justify-content-md-around justify-content-center flex-wrap px-5">
           <h3
             class="mb-2 mb-md-0 t-white product__tab position-relative d-inline-block mx-3 mx-md-0"
+            :class="{active: activeProduct === product.id}"
             v-for="product in products"
             :key="product.id"
             @click="displayProducts(product)"
