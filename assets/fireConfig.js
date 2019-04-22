@@ -2,17 +2,17 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 
 var config = {
-  apiKey: "AIzaSyBh8i1w6CiQ5SFVQJ2qkI3uzHQKuKnSB88",
-  authDomain: "sojade-1e016.firebaseapp.com",
-  databaseURL: "https://sojade-1e016.firebaseio.com",
-  projectId: "sojade-1e016",
-  storageBucket: "sojade-1e016.appspot.com",
-  messagingSenderId: "571711018067"
+  apiKey: "AIzaSyBLHEHDXhBUQYoF59-GudhBEiHraE1Pv_A",
+  authDomain: "sojade-prod.firebaseapp.com",
+  databaseURL: "https://sojade-prod.firebaseio.com",
+  projectId: "sojade-prod",
+  storageBucket: "sojade-prod.appspot.com",
+  messagingSenderId: "229315789210"
 };
 
 firebase.initializeApp(config)
 
-//utils 
+//utils
 const db = firebase.firestore()
 const auth = firebase.auth()
 const currentUser = auth.currentUser
