@@ -57,7 +57,7 @@
 
                   <hooper
                     ref="hooper"
-                    :infiniteScroll="true"
+                    :infiniteScroll="false"
                     :wheelControl="false"
                     class="bg-paleyellow h-100"
                     style="display:inherit; max-height: 600px;"

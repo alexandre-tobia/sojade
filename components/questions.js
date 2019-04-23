@@ -16,8 +16,8 @@ module.exports = [{
     }
   ],
   "explaination": {
-    "true": "La graine de soja est la légumineuse la plus riche en protéines : elle apporte 8 acides aminés à l’organisme, tout en étant pauvre en acides gras saturés.",
-    "false": "C’est grâce à sa richesse en protéines que la graine de soja occupe la première place du podium : elle apporte 8 acides aminés à l’organisme, tout en étant pauvre en acides gras saturés."
+    "true": "La graine de soja est la légumineuse la plus riche en protéines : elle apporte 8 acides aminés à l’organisme, tout en étant pauvre en acides gras saturés.",
+    "false": "C’est grâce à sa richesse en protéines que la graine de soja occupe la première place du podium : elle apporte 8 acides aminés à l’organisme, tout en étant pauvre en acides gras saturés."
   }
 }, {
   "_id": 2,
@@ -38,7 +38,7 @@ module.exports = [{
   ],
   "explaination": {
     "true": "Qu’elles soient entières ou décortiquées, les graines de chanvre ont un goût de noisettes fraiches. À intégrer dans vos gâteaux, à saupoudrer sur vos salades, à toaster pour l’apéritif !",
-    "false": "Qu’elles soient entières ou décortiquées, c’est à la noisette fraîche que les graines de chanvre font penser. À intégrer dans vos gâteaux, à saupoudrer sur vos salades, à toaster pour l’apéritif !"
+    "false": "Qu’elles soient entières ou décortiquées, c’est à la noisette fraîche que les graines de chanvre font penser. À intégrer dans vos gâteaux, à saupoudrer sur vos salades, à toaster pour l’apéritif !"
   }
 }, {
   "_id": 3,
@@ -59,7 +59,7 @@ module.exports = [{
   ],
   "explaination": {
     "true": "Les desserts Sojade Riz sont naturellement pauvre en matière grasse et présentent une faible teneur en graisses saturées, contribuant ainsi au maintien d’un taux normal de cholestérol.",
-    "false": "Les desserts Sojade Riz présentent une faible teneur en graisses saturées : naturellement pauvres en matière grasse, ils contribuent ainsi au maintien d’un taux normal de cholestérol."
+    "false": "Les desserts Sojade Riz présentent une faible teneur en graisses saturées : naturellement pauvres en matière grasse, ils contribuent ainsi au maintien d’un taux normal de cholestérol."
   }
 }, {
   "_id": 4,
@@ -75,7 +75,7 @@ module.exports = [{
     },
     {
       "answer": "Le riz",
-      "isValid": true
+      "isValid": false
     }
   ],
   "explaination": {
