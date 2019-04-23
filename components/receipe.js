@@ -25,6 +25,7 @@ module.exports = [{
         "receipe": {
             "receipeImage": require('../assets/img/receipe_1.jpg'),
             "name": "Cheesecake façon tarte au citron",
+            "type": "dessert",
             "number": 6,
             "cookTime": 10,
             "baking": 15,
@@ -89,6 +90,7 @@ module.exports = [{
         "receipe": {
             "receipeImage": require('../assets/img/receipe_2.jpg'),
             "name": "Linguine au sarrasin et aux épinards",
+            "type": "culinaire",
             "number": 4,
             "cookTime": 10,
             "baking": "8-10",
@@ -148,6 +150,7 @@ module.exports = [{
         "receipe": {
             "receipeImage": require('../assets/img/receipe_3.jpg'),
             "name": "Smoothie aux fruits",
+            "type": "boisson",
             "number": 4,
             "cookTime": 0,
             "baking": 0,
@@ -202,6 +205,7 @@ module.exports = [{
         "receipe": {
             "receipeImage": require('../assets/img/receipe_4.jpg'),
             "name": "Fingers Sauce Thaï",
+            "type": "traiteur",
             "number": 4,
             "cookTime": 15,
             "baking": 15,

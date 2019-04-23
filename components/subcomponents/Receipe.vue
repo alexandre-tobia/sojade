@@ -2,7 +2,10 @@
   <div class="receipe">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-md-5 d-flex">
+        <div class="col-md-5 d-flex position-relative">
+          <div class="receipe__type position-absolute p-3 w-25 text-center">
+            <p class="t-white mb-0">Recette {{ receipe.type }}</p>
+          </div>
           <div
             class="receipe__image"
             :style="{ backgroundImage: `url('${receipe.receipeImage}')` }"

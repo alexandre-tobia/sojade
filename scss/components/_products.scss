@@ -245,6 +245,13 @@
     background-position: center center;
   }
 
+
+  .receipe__type {
+    border-radius: 40% 60% 59% 41% / 47% 64% 36% 53%;
+    background: $p-green;
+    top: 1em;
+    right: 1em;
+  }
 }
 
 .receipe__splash__after {
