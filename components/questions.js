@@ -58,7 +58,7 @@ module.exports = [{
     }
   ],
   "explaination": {
-    "true": "Les desserts Sojade Riz sont naturellement pauvre en matière grasse et présentent une faible teneur en graisses saturées, contribuant ainsi au maintien d’un taux normal de cholestérol.",
+    "true": "Les desserts Sojade Riz sont naturellement pauvres en matière grasse et présentent une faible teneur en graisses saturées, contribuant ainsi au maintien d’un taux normal de cholestérol.",
     "false": "Les desserts Sojade Riz présentent une faible teneur en graisses saturées : naturellement pauvres en matière grasse, ils contribuent ainsi au maintien d’un taux normal de cholestérol."
   }
 }, {

@@ -259,8 +259,7 @@
             <p>
               3 produits SOJADE + 1 kit de graines à planter (3 plaquettes de tourbe + graines d’un
               mélange de
-              fleurs sauvages) + 1
-              crayon à planter.
+              fleurs sauvages) + 1 crayon à planter. La totalité du lot est valorisé à 15,00 € TTC environ.
             </p>
             <br>
             <p>
